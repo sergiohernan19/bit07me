@@ -1,3 +1,3 @@
 'Use strict'
 
-console.log("Sergio Hernández")
+console.log('Sergio Hernández')
