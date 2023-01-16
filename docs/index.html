@@ -1,17 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="js/main.js" />
+    <link rel="stylesheet" href="/docs/css/main.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:768px)"
+      href="/docs/css/mobile.css"
+    />
     <title>Sergio Hernández</title>
   </head>
   <body>
-    <figure>
-      <img src="/docs/img/me.jpg" alt="fotop">
-    <figcaption>Sergio Hernández</figcaption> 
-</figure>
+    <header id="mainheader">
+      <nav id="navbar">
+        <div class="container">
+          <div class="logo"><img src="/docs/img/logo.jpg" alt="" /></div>
+          <ul class="nav">
+            <li><a href="#work">Mi Trabajo</a></li>
+            <li><a href="#about">Sobre Mí</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="showcase">
+        <div class="container">
+          <h1 class="display-1">
+            Desarrollador Front-End <br />
+            
+          </h1>
+          <a href="#work" class="btn btn-outline">Mi Trabajo</a>
+        </div>
+      </div>
+    </header>
+
+    <section id="work">
+      <div class="container">
+        <h2>Experiencia laboral y proyectos</h2>
+
+        <div class="work-row">
+          <div class="work-row-box">
+            <h4>Animador, Locutor y Coordinador (Independiente)</h4>
+            <p>
+              He trabajado con una gran cantidad de empresas <br> y marcas reconocidas 
+          en distintos sectores <br> económicos.  A través de los años he logrado <br> excelentes 
+          resultados de aforo, activación y/o compra de productos y servicios. 
+          Ésto relacionado con el desarrollo web, buscando cualquier recurso y método para 
+          lograr cumplir las expectativas de mis clientes. 
+            </p>
+          </div>
+
+          <div class="work-row-box">
+            <h4>Practicante (Envía - Colvanes)</h4>
+            <p>
+              Manejé el archivo financiero de la compañía, apoyé al área de gestión humana para organizar 
+              capacitaciones y realizar los filtros de los nuevos colaboradores; y manejé el inventario en bodega. <br>
+              Tuve tareas de gran importancia a mi cargo y todas las desempeñé con exclentes resultados.
+            </p>
+            
+  
+          </div>
+          <div class="work-row-box">
+            <h4>Desarrollo Web</h4>
+            <p>
+             Soy desarrollador Front-End, formado en Bogotá Institute of Tecnology (BIT).
+             Domino HTML, CSS y JavaScript para usarlos como recursos en cualquier tipo de proyecto. <br>
+             Me hago a la idea de ofrecer nuevas ideas y vibras para todo tipo de compañías ofreciendo 
+             mis servicios como desarrollador.
+
+            </p>
+            <a href="https://github.com/sergiohernan19" class="btn-link">Proyectos</a>
+          </div>
+        </div>
+        
+    </section>
+
+    <section id="about">
+      <img src="/docs/img/me.png" alt="FotoDesarrollador" />
+      <div class="about-text">
+        <h2>
+          Acerca de mí
+        </h2>
+        <p class="large">
+          Soy una persona con un alto grado de adaptabilidad, me acoplo a las necesidades del cliente y fluyo con equipos y grupos de trabajo. <br>
+         Busco la manera de hallar soluciones cuando los recursos son limitados.
+
+        </p>
+        <a href="#" class="btn btn-outline">Más detalles</a>
+      </div>
+      
+    </section>
+
+    <hr />
+
+    <section id="contact">
+      <div class="container">
+        <div class="contact-info">
+          <p>
+            sehb1234@gmail.com <br />
+            314-410-3767 <br> Llamadas - WhatsApp
+          </p>
+        </div>
+        <div class="contact-logo">
+          <img src="/images/logo.png" alt="" />
+        </div>
+        <div class="contact-social">
+          <a href="https://github.com/sergiohernan19"><img src="/docs/img/logogithub.png" alt="" /></a>
+          <a href="https://www.linkedin.com/in/sergio-hern%C3%A1ndez-74208a261/"><img src="/docs/img/logolinkedin.png" alt="" /></a>
+          <a href="https://www.instagram.com/sehb19_/"><img src="/docs/img/logoinstagram.png" alt="" /></a>
+          
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <footer id="mainfooter">
+      TODOS LOS DERECHOS RESERVADOS © 2023 
+      Bogotá Institue of Technology (BIT)
+    </footer>
+    <script src="/docs/js/main.js"></script>
   </body>
 </html>
+
