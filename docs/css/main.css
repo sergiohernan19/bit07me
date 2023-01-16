@@ -98,8 +98,9 @@ hr {
 }
 
 /* Header */
-#mainheader {
-	background: url('/docs/img/fondo.jpg');
+#mainheader
+ {
+	background: url('../img/fondo.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
